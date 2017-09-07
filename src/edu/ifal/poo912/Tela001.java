@@ -518,7 +518,7 @@ public class Tela001 extends javax.swing.JFrame {
             
             case 4:
                 ff.setEditable(false);
-                mc  = 1000000;
+                mc  = a1.get(0).getQuantidade();
                 pos = 0;
             for(int i = 0 ; i < a1.size() ; i ++)
             {
